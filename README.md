@@ -8,6 +8,7 @@
 - [Introduction](#introduction)
 - [Environment Setup](#environment-setup)
 - [Installation Instructions](#installation-instructions)
+- [Evaluation](#evaluation)
 - [Resources](#resources)
 - [License](#license)
 - [Conclusion](#conclusion)
@@ -59,6 +60,17 @@ To use this project, clone the repository and set up the environment as follows:
 2. **Setup the Environment**:
     - Navigate to the project directory and activate the virtual environment.
     - Install the dependencies from `requirements.txt`.
+
+## Evaluation
+
+|       | Random Forest |     KNN    | Decision Tree |
+|-------|---------------|------------|---------------|
+| **0** | 0.821229      | 0.759777   | 0.837989      |
+| **1** | 0.797753      | 0.713483   | 0.814607      |
+| **2** | 0.820225      | 0.741573   | 0.831461      |
+| **3** | 0.786517      | 0.735955   | 0.786517      |
+| **4** | 0.848315      | 0.803371   | 0.831461      |
+
 
 ## Resources
 
