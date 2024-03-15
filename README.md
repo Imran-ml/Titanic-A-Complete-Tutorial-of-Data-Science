@@ -1,5 +1,8 @@
 # Titanic a Complete Tutorial of Data Science
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/St%C3%B6wer_Titanic.jpg">
+<h4> Ref: https://upload.wikimedia.org/wikipedia/commons/6/6e/St%C3%B6wer_Titanic.jpg </h4>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -51,7 +54,7 @@ To use this project, clone the repository and set up the environment as follows:
 
 1. **Clone the Repository**:
     ```bash
-    https://github.com/Imran-ml/Name-Entity-Recognition-and-Classification.git
+    https://github.com/Imran-ml/Titanic-A-Complete-Tutorial-of-Data-Science.git
     ```
 2. **Setup the Environment**:
     - Navigate to the project directory and activate the virtual environment.
@@ -68,17 +71,10 @@ This project is made available under the MIT License.
 
 ## Conclusion
 
-We applied various techniques in data preparation and feature extraction. Initially, using the TF-IDF technique for feature extraction did not yield satisfactory results. However, switching to a Sequence extractor using TensorFlow significantly improved our outcomes. Data preprocessing, feature extraction, and hyperparameter tuning were crucial in enhancing the RNN's performance, whereas the Random Forest model underperformed.
 
-For hyperparameter tuning in deep learning models, it's essential to adjust them based on the problem at hand, train, and test the model to evaluate its performance thoroughly. In the case of the Random Forest model, employing a GRID SEARCH approach allows for training across a spectrum of hyperparameters to identify the optimal ones for the final model.
+In conclusion, our exploration of the Titanic dataset using Random Forest, KNN, and Decision Tree algorithms has provided valuable insights into machine learning applications. The Random Forest algorithm demonstrated robustness and consistency, making it a standout choice for this dataset. While Decision Trees showed potential for high accuracy, they also indicated a risk of overfitting. The KNN algorithm, though slightly less accurate, remains a useful tool for understanding dataset nuances.
 
-### Hyperparameters for RNN:
-After tuning, the optimal hyperparameters included using the Sigmoid activation function for binary output, binary cross-entropy for a two-class classification problem, and the RMSPROP optimizer for enhanced performance. Experimenting with different epochs and batch sizes, we found that 20 epochs and a batch size of 500 were ideal.
-
-### Hyperparameters for RF:
-The best parameters for the Random Forest model were identified through grid search, resulting in: {'n_estimators': 200, 'max_features': 'sqrt', 'max_depth': 8, 'criterion': 'gini'}.
-
-The RNN model excelled due to its capability to remember information from previous instances, providing superior results.
+This project highlights the importance of algorithm selection and tuning in predictive modeling. We encourage further experimentation and learning within this fascinating field of data science. Thank you for engaging with our Titanic Survival Prediction Project.
 
 ## About Author
 
@@ -89,4 +85,4 @@ The RNN model excelled due to its capability to remember information from previo
     - LinkedIn: [Profile](linkedin.com/in/muhammad-imran-zaman)
     - Google Scholar: [Profile](https://scholar.google.com/citations?user=ulVFpy8AAAAJ&hl=en)
     - YouTube: [Channel](https://www.youtube.com/@consolioo)
-- **Project Repository**: [GitHub Repo](https://github.com/Imran-ml/Name-Entity-Recognition-and-Classification.git)
+- **Project Repository**: [GitHub Repo](https://github.com/Imran-ml/Titanic-A-Complete-Tutorial-of-Data-Science.git)
